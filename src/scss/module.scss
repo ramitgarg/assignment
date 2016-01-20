@@ -1,0 +1,168 @@
+body {
+	margin: 0px;
+	font-family:Open Sans;
+}
+
+input[disabled] {
+	color:#FFFFFF;
+}
+p{
+    color:#818181;
+}
+.model-box{
+    
+	bottom: 0;
+	height: 380px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 400px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.23);
+}
+
+.header-box{
+	width: 100%;
+    background: #818181;
+    height: 70px;
+    border-bottom: 1px solid black;
+
+}
+
+.img-par {
+	position:relative;
+}
+
+.img-child{
+	width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background:white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.23);
+}
+.content-area{
+	padding:15px;
+}
+
+.editable{
+	background: #FAFAFA;
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    height: 34px;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.23);
+    outline: none;
+    color:#CCCCCC;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 50px;
+    max-height: 100px;
+    line-height: 12px;
+}
+
+.non-editable{
+	border:none;
+	width: 100%;
+    color:#818181 !important;
+}
+.input-class{
+	border:none;
+	background:#818181;
+    color:#CCCCCC;
+}
+
+.name-class{
+	margin-top: 5%;
+    font-size: 16px;
+    
+}
+.email-class{
+    font-size: 12px;
+}
+.submit-button{
+	text-align: center;
+}
+
+input{
+	outline:none;
+}
+
+.button-par{
+	width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 20px;
+    right: 0px;
+}
+.button-class{
+	width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: white;
+    border: none;
+    padding: 0px;
+    outline: none;
+}
+.edit-img{
+	background: url('../images/sprite.png');
+    background-position: -112px 116px;
+}
+
+.updated-img{
+	background: url('../images/sprite.png');
+    background-position: -160px 116px;
+}
+.content-area{
+	padding-top: 10px;
+    padding-left: 10px;
+}
+.footer{
+	bottom: 0;
+    height: 40px;
+    width:100%;
+    position: absolute;
+    background-color: #FAFAFA;
+}
+.logo-name{
+	float:left;
+	width: 100px;
+    height: 40px;
+	background: url('../images/sprite.png');
+    background-position: 100px -52px;
+}
+.logo-class{
+	float: right;
+    width: 150px;
+    height: 35px;
+	background: url('../images/sprite.png');
+	background-position: 10px 35px;
+}
+.heading{
+	font-size:16px;
+	margin-bottom: 0px;
+}
+.content-text{
+	font-size:14px;
+}
+
+.img-base{
+	background: url('../images/sprite.png');
+    width: 60px;
+    height: 70px;
+    left: 0;
+    background-size: cover;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-position: 4px 13px;
+    background-repeat: no-repeat;
+}
